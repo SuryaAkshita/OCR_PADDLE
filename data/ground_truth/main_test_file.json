@@ -1,0 +1,167 @@
+{
+    "document": {
+        "file_name": "main_test_file.pdf",
+        "document_type": "WorldTrips Claimant Statement and Authorization",
+        "total_pages": 10,
+        "docu_sign_envelope_id": "5208D50D-6221-461D-B926-C9BA6DF98167"
+    },
+    "pages": [
+        {
+            "page": 1,
+            "section": "PART A: CLAIMANT INFORMATION",
+            "raw_text": "WorldTrips ... Claimant’s Statement and Authorization ...",
+            "form_fields": {
+                "1a_claimant_full_name": "Ilyas Malik",
+                "2a_gender": "Male",
+                "3a_date_of_birth_mm_dd_yy": "07/03/2008",
+                "4a_current_mailing_address": "69 Sylvester Avenue",
+                "5a_city": "Winchester",
+                "6a_state": "MA",
+                "7a_postal_code": "01890",
+                "8a_country": "USA",
+                "9a_primary_telephone": "120392469",
+                "10a_secondary_telephone": null,
+                "11a_email_address": "razmalik@gmail.com",
+                "12a_policy_or_certificate_number": "245549351",
+                "13a_citizenship": "USA",
+                "14a_home_country": "USA",
+                "15a_countries_visited": "England, Turkey"
+            }
+        },
+        {
+            "page": 2,
+            "section": "PART A (Continued) + PART B: TRAVEL ASSISTANCE AND OTHER CLAIMS",
+            "raw_text": "16A. Are you a full-time student? ... 17A. Are you employed? ...",
+            "form_fields": {
+                "16a_full_time_student": "Yes",
+                "16a_school_name": "Winchester High School",
+                "16a_school_address": "80 Skillings Road",
+                "16a_school_city": "Winchester",
+                "16a_school_state": "MA",
+                "16a_school_postal_code": "01890",
+                "16a_school_country": "USA",
+                "17a_employed": "No",
+                "18a_other_insurance_coverage": "No"
+            },
+            "part_b": {
+                "1b_applying_for": {
+                    "travel_delay": false,
+                    "lost_checked_luggage": false,
+                    "trip_interruption": false,
+                    "emergency_quarantine_indemnity_benefit_covid_19": false,
+                    "other": true
+                },
+                "2b_incident_details": "N/A"
+            }
+        },
+        {
+            "page": 3,
+            "section": "PART C: MEDICAL INFORMATION",
+            "raw_text": "Onset of illness ... Fever, headaches, GI issues, Dizziness ...",
+            "form_fields": {
+                "1c_onset_of_illness_or_date_time_of_injury": "July 8th",
+                "1c_accident_location_if_any": "N/A",
+                "1c_symptoms_description": "Fever, headaches, GI issues, Dizziness",
+                "2c_had_same_illness_or_injury_before": "No",
+                "3c_motorized_vehicle_accident": "No",
+                "4c_any_conditions_or_medication_last_2_years": "No",
+                "5c_incident_related_to_employment": "No"
+            }
+        },
+        {
+            "page": 4,
+            "section": "PART D: MEDICAL RECORD AUTHORIZATION",
+            "raw_text": "I verify that all information contained ...",
+            "signatures": {
+                "claimant_signature_date_mm_dd_yy": "09/05/2023",
+                "insured_signature_date_mm_dd_yy": "09/05/2023",
+                "printed_name": "Ilyas Malik"
+            }
+        },
+        {
+            "page": 5,
+            "section": "SUPPLEMENT A — NON-U.S. CLAIM ITEMIZATION FORM",
+            "raw_text": "Date of Service ... Provider ... Currency ... Amount Charged ...",
+            "tables": {
+                "supplement_a_items": [
+                    {
+                        "date_of_service_mm_dd_yy": "07/09/2023",
+                        "provider": "ACIBADEM Hospital",
+                        "diagnosis": "virus",
+                        "description_of_services": "Examination and tests",
+                        "currency": "TL (Turkish Lira)",
+                        "country": "Turkey",
+                        "amount_charged": "4590.599"
+                    },
+                    {
+                        "date_of_service_mm_dd_yy": "07/09/2023",
+                        "provider": "ACIBADEM Hospital",
+                        "diagnosis": "virus",
+                        "description_of_services": "Medication",
+                        "currency": "TL (Turkish Lira)",
+                        "country": "Turkey",
+                        "amount_charged": "458.35"
+                    }
+                ]
+            }
+        },
+        {
+            "page": 6,
+            "section": "SUPPLEMENT B — ILLNESS OR INJURY",
+            "raw_text": "Use the additional form fields below if needed for question 4C.",
+            "tables": {
+                "supplement_b_items": []
+            }
+        },
+        {
+            "page": 7,
+            "section": "SUPPLEMENT C — PAYMENT AUTHORIZATION AGREEMENT FORM",
+            "raw_text": "Beneficiary Name ... Payment Type ...",
+            "form_fields": {
+                "beneficiary_name": "Raheel Malik",
+                "beneficiary_email": "razmalik@gmail.com",
+                "beneficiary_address": "69 Sylvester Avenue",
+                "beneficiary_city": "Winchester",
+                "beneficiary_state": "MA",
+                "beneficiary_postal_code": "01890",
+                "beneficiary_country": "USA",
+                "payment_type": "Check"
+            }
+        },
+        {
+            "page": 8,
+            "section": "SUPPLEMENT C (Continued) + THIRD PARTY PAYMENT FORM",
+            "raw_text": "Domestic Payments ... THIRD PARTY PAYMENT FORM ...",
+            "form_fields": {
+                "printed_name_of_insured": "Ilyas Malik",
+                "insured_signature_date_mm_dd_yy": "09/05/2023"
+            },
+            "third_party_payment_form": {
+                "name": null,
+                "address": null,
+                "city": null,
+                "state": null,
+                "postal_code": null,
+                "country": null
+            }
+        },
+        {
+            "page": 9,
+            "section": "SUPPLEMENT D — AUTHORIZATION FORM (PHI Disclosure)",
+            "raw_text": "You must fill out the sections below ...",
+            "form_fields": {
+                "insured_name": null,
+                "policy_certificate_number": null
+            }
+        },
+        {
+            "page": 10,
+            "section": "SUPPLEMENT D (Continued)",
+            "raw_text": "Insured’s Signature ... Personal Representative ...",
+            "form_fields": {
+                "personal_representative_relationship": "Father",
+                "personal_representative_name": "Raheel Malik"
+            }
+        }
+    ]
+}

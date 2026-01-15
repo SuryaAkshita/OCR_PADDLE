@@ -1,0 +1,526 @@
+2026-01-15 17:11:27,408 - __main__ - ERROR - No PDF or image files found in C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\input
+2026-01-15 17:11:27,409 - __main__ - INFO - Please place your files in the data/input/ directory
+2026-01-15 17:11:27,409 - __main__ - INFO - Or use: python main.py --input path/to/your/file.pdf
+2026-01-15 17:12:05,249 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:12:05,249 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:12:05,249 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:12:05,255 - src.ocr.engine - ERROR - Failed to initialize PaddleOCR: Unknown argument: use_gpu
+2026-01-15 17:12:59,790 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:12:59,791 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:12:59,791 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:12:59,792 - src.ocr.engine - ERROR - Failed to initialize PaddleOCR: Unknown argument: show_log
+2026-01-15 17:13:39,798 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:13:39,798 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:13:39,798 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:13:47,078 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:13:47,079 - __main__ - INFO - ======================================================================
+2026-01-15 17:13:47,079 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:13:47,079 - __main__ - INFO - ======================================================================
+2026-01-15 17:13:47,080 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:13:47,080 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:13:50,373 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:13:50,374 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:13:50,375 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:13:50,380 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:13:50,380 - __main__ - INFO - Step 5: Saving results...
+2026-01-15 17:13:50,383 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_171350.txt
+2026-01-15 17:13:50,385 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_171350.json
+2026-01-15 17:13:50,385 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:13:50,386 - __main__ - INFO - ======================================================================
+2026-01-15 17:13:50,387 - __main__ - INFO - Processing completed in 3.31 seconds
+2026-01-15 17:13:50,387 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:13:50,388 - __main__ - INFO - ======================================================================
+2026-01-15 17:30:54,949 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:30:54,950 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:30:54,950 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:31:00,985 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:31:00,985 - __main__ - INFO - ======================================================================
+2026-01-15 17:31:00,986 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:31:00,986 - __main__ - INFO - ======================================================================
+2026-01-15 17:31:00,987 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:31:00,988 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:31:04,821 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:31:04,822 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:31:04,822 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:31:04,825 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:31:04,839 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:31:04,839 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:31:04,840 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_173104.txt
+2026-01-15 17:31:04,849 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173104_form.json
+2026-01-15 17:31:04,854 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173104.json
+2026-01-15 17:31:04,855 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:31:04,855 - __main__ - INFO - ======================================================================
+2026-01-15 17:31:04,856 - __main__ - INFO - Processing completed in 3.87 seconds
+2026-01-15 17:31:04,856 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:31:04,857 - __main__ - INFO - ======================================================================
+2026-01-15 17:32:38,428 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:32:38,429 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:32:38,429 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:32:43,696 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:32:43,696 - __main__ - INFO - ======================================================================
+2026-01-15 17:32:43,696 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:32:43,697 - __main__ - INFO - ======================================================================
+2026-01-15 17:32:43,697 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:32:43,698 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:32:46,997 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:32:46,997 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:32:46,998 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:32:47,001 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:32:47,015 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:32:47,015 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:32:47,022 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_173247.txt
+2026-01-15 17:32:47,025 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173247_form.json
+2026-01-15 17:32:47,026 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173247.json
+2026-01-15 17:32:47,027 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:32:47,027 - __main__ - INFO - ======================================================================
+2026-01-15 17:32:47,028 - __main__ - INFO - Processing completed in 3.33 seconds
+2026-01-15 17:32:47,028 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:32:47,029 - __main__ - INFO - ======================================================================
+2026-01-15 17:36:30,620 - __main__ - INFO - Processing first file found: main_test_file.pdf
+2026-01-15 17:36:30,621 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:36:30,621 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:36:36,077 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:36:36,078 - __main__ - INFO - ======================================================================
+2026-01-15 17:36:36,079 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:36:36,079 - __main__ - INFO - ======================================================================
+2026-01-15 17:36:36,080 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:36:36,081 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:36:39,347 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:36:39,347 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:36:39,348 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:36:39,351 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:36:39,365 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:36:39,365 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:36:39,366 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_173639.txt
+2026-01-15 17:36:39,369 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173639_form.json
+2026-01-15 17:36:39,371 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_173639.json
+2026-01-15 17:36:39,372 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:36:39,372 - __main__ - INFO - ======================================================================
+2026-01-15 17:36:39,373 - __main__ - INFO - Processing completed in 3.29 seconds
+2026-01-15 17:36:39,373 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:36:39,373 - __main__ - INFO - ======================================================================
+2026-01-15 17:41:46,435 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:41:46,436 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:41:53,471 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:41:53,472 - __main__ - INFO - ======================================================================
+2026-01-15 17:41:53,472 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:41:53,473 - __main__ - INFO - ======================================================================
+2026-01-15 17:41:53,473 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:41:53,474 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:41:57,163 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:41:57,164 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:41:57,165 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:41:57,168 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:41:57,183 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:41:57,184 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:41:57,186 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_174157.txt
+2026-01-15 17:41:57,188 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174157_form.json
+2026-01-15 17:41:57,191 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174157.json
+2026-01-15 17:41:57,193 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:41:57,194 - __main__ - INFO - ======================================================================
+2026-01-15 17:41:57,194 - __main__ - INFO - Processing completed in 3.72 seconds
+2026-01-15 17:41:57,195 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:41:57,195 - __main__ - INFO - ======================================================================
+2026-01-15 17:45:25,899 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:45:25,900 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:45:32,369 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:45:32,370 - __main__ - INFO - ======================================================================
+2026-01-15 17:45:32,370 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:45:32,370 - __main__ - INFO - ======================================================================
+2026-01-15 17:45:32,371 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:45:32,371 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:45:37,386 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:45:37,388 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:45:37,388 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:45:37,392 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:45:37,403 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:45:37,403 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:45:37,405 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_174537.txt
+2026-01-15 17:45:37,407 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174537_form.json
+2026-01-15 17:45:37,410 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174537.json
+2026-01-15 17:45:37,412 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:45:37,413 - __main__ - INFO - ======================================================================
+2026-01-15 17:45:37,413 - __main__ - INFO - Processing completed in 5.04 seconds
+2026-01-15 17:45:37,414 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:45:37,414 - __main__ - INFO - ======================================================================
+2026-01-15 17:46:42,910 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 17:46:42,911 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 17:46:49,464 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 17:46:49,464 - __main__ - INFO - ======================================================================
+2026-01-15 17:46:49,465 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 17:46:49,465 - __main__ - INFO - ======================================================================
+2026-01-15 17:46:49,466 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 17:46:49,467 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 17:46:52,992 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 17:46:52,993 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 17:46:52,993 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 17:46:52,997 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 17:46:53,008 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 17:46:53,009 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 17:46:53,011 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_174653.txt
+2026-01-15 17:46:53,013 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174653_form.json
+2026-01-15 17:46:53,014 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_174653.json
+2026-01-15 17:46:53,015 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 17:46:53,016 - __main__ - INFO - ======================================================================
+2026-01-15 17:46:53,016 - __main__ - INFO - Processing completed in 3.55 seconds
+2026-01-15 17:46:53,017 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 17:46:53,018 - __main__ - INFO - ======================================================================
+2026-01-15 18:02:17,478 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:02:17,478 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:02:22,860 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:02:22,860 - __main__ - INFO - ======================================================================
+2026-01-15 18:02:22,861 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:02:22,861 - __main__ - INFO - ======================================================================
+2026-01-15 18:02:22,861 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:02:22,862 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:02:26,142 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:02:26,142 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:02:26,143 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:02:26,146 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:02:26,148 - src.parsers.form_parser - ERROR - Error parsing document: 'FormParser' object has no attribute '_normalize_date'
+2026-01-15 18:02:26,148 - __main__ - ERROR - Error processing document: 'FormParser' object has no attribute '_normalize_date'
+Traceback (most recent call last):
+  File "C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\main.py", line 122, in process_document
+    structured_form = self.form_parser.parse_document(cleaned_text, num_pages)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\src\parsers\form_parser.py", line 43, in parse_document
+    page_data = self._parse_page(page_text, i)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\src\parsers\form_parser.py", line 107, in _parse_page
+    page_data['form_fields'] = self._parse_part_a(page_text)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\src\parsers\form_parser.py", line 176, in _parse_part_a
+    fields['3a_date_of_birth_mm_dd_yy'] = self._normalize_date(dob)
+                                          ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FormParser' object has no attribute '_normalize_date'
+2026-01-15 18:03:28,299 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:03:28,299 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:03:39,906 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:03:39,906 - __main__ - INFO - ======================================================================
+2026-01-15 18:03:39,907 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:03:39,907 - __main__ - INFO - ======================================================================
+2026-01-15 18:03:39,908 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:03:39,908 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:03:44,056 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:03:44,056 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:03:44,057 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:03:44,062 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:03:44,077 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:03:44,077 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:03:44,079 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_180344.txt
+2026-01-15 18:03:44,083 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_180344_form.json
+2026-01-15 18:03:44,091 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_180344.json
+2026-01-15 18:03:44,093 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:03:44,094 - __main__ - INFO - ======================================================================
+2026-01-15 18:03:44,095 - __main__ - INFO - Processing completed in 4.19 seconds
+2026-01-15 18:03:44,096 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:03:44,097 - __main__ - INFO - ======================================================================
+2026-01-15 18:10:31,467 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:10:31,468 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:10:36,856 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:10:36,857 - __main__ - INFO - ======================================================================
+2026-01-15 18:10:36,857 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:10:36,858 - __main__ - INFO - ======================================================================
+2026-01-15 18:10:36,858 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:10:36,859 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:10:40,210 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:10:40,211 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:10:40,211 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:10:40,214 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:10:40,224 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:10:40,224 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:10:40,226 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_181040.txt
+2026-01-15 18:10:40,227 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181040_form.json
+2026-01-15 18:10:40,230 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181040.json
+2026-01-15 18:10:40,231 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:10:40,231 - __main__ - INFO - ======================================================================
+2026-01-15 18:10:40,232 - __main__ - INFO - Processing completed in 3.37 seconds
+2026-01-15 18:10:40,232 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:10:40,232 - __main__ - INFO - ======================================================================
+2026-01-15 18:14:02,093 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:14:02,094 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:14:07,601 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:14:07,602 - __main__ - INFO - ======================================================================
+2026-01-15 18:14:07,602 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:14:07,602 - __main__ - INFO - ======================================================================
+2026-01-15 18:14:07,603 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:14:07,603 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:14:10,946 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:14:10,948 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:14:10,948 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:14:10,951 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:14:10,961 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:14:10,961 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:14:10,963 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_181410.txt
+2026-01-15 18:14:10,965 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181410_form.json
+2026-01-15 18:14:10,967 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181410.json
+2026-01-15 18:14:10,968 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:14:10,968 - __main__ - INFO - ======================================================================
+2026-01-15 18:14:10,969 - __main__ - INFO - Processing completed in 3.37 seconds
+2026-01-15 18:14:10,970 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:14:10,970 - __main__ - INFO - ======================================================================
+2026-01-15 18:16:41,776 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:16:41,777 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:16:47,204 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:16:47,205 - __main__ - INFO - ======================================================================
+2026-01-15 18:16:47,206 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:16:47,206 - __main__ - INFO - ======================================================================
+2026-01-15 18:16:47,207 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:16:47,207 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:16:50,588 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:16:50,589 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:16:50,590 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:16:50,593 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:16:50,602 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:16:50,602 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:16:50,604 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_181650.txt
+2026-01-15 18:16:50,606 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181650_form.json
+2026-01-15 18:16:50,608 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181650.json
+2026-01-15 18:16:50,609 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:16:50,609 - __main__ - INFO - ======================================================================
+2026-01-15 18:16:50,610 - __main__ - INFO - Processing completed in 3.40 seconds
+2026-01-15 18:16:50,610 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:16:50,610 - __main__ - INFO - ======================================================================
+2026-01-15 18:19:39,611 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:19:39,611 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:19:45,212 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:19:45,212 - __main__ - INFO - ======================================================================
+2026-01-15 18:19:45,213 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:19:45,213 - __main__ - INFO - ======================================================================
+2026-01-15 18:19:45,213 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:19:45,214 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:19:48,758 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:19:48,759 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:19:48,760 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:19:48,768 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:19:48,778 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:19:48,779 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:19:48,780 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_181948.txt
+2026-01-15 18:19:48,782 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181948_form.json
+2026-01-15 18:19:48,785 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_181948.json
+2026-01-15 18:19:48,786 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:19:48,787 - __main__ - INFO - ======================================================================
+2026-01-15 18:19:48,787 - __main__ - INFO - Processing completed in 3.57 seconds
+2026-01-15 18:19:48,788 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:19:48,788 - __main__ - INFO - ======================================================================
+2026-01-15 18:30:51,333 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:30:51,333 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:30:59,365 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:30:59,366 - __main__ - INFO - ======================================================================
+2026-01-15 18:30:59,367 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:30:59,368 - __main__ - INFO - ======================================================================
+2026-01-15 18:30:59,369 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:30:59,369 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:31:03,653 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:31:03,654 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:31:03,655 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:31:03,659 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:31:03,675 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:31:03,676 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:31:03,678 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_183103.txt
+2026-01-15 18:31:03,680 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_183103_form.json
+2026-01-15 18:31:03,683 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_183103.json
+2026-01-15 18:31:03,683 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:31:03,684 - __main__ - INFO - ======================================================================
+2026-01-15 18:31:03,685 - __main__ - INFO - Processing completed in 4.32 seconds
+2026-01-15 18:31:03,685 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:31:03,686 - __main__ - INFO - ======================================================================
+2026-01-15 18:37:31,356 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:37:31,357 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:37:36,880 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:37:36,881 - __main__ - INFO - ======================================================================
+2026-01-15 18:37:36,881 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:37:36,882 - __main__ - INFO - ======================================================================
+2026-01-15 18:37:36,882 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:37:36,883 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:37:40,106 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:37:40,107 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:37:40,107 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:37:40,110 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:37:40,124 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:37:40,125 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:37:40,126 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_183740.txt
+2026-01-15 18:37:40,128 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_183740_form.json
+2026-01-15 18:37:40,130 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_183740.json
+2026-01-15 18:37:40,131 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:37:40,131 - __main__ - INFO - ======================================================================
+2026-01-15 18:37:40,132 - __main__ - INFO - Processing completed in 3.25 seconds
+2026-01-15 18:37:40,132 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:37:40,132 - __main__ - INFO - ======================================================================
+2026-01-15 18:40:02,196 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:40:02,197 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:40:07,549 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:40:07,549 - __main__ - INFO - ======================================================================
+2026-01-15 18:40:07,550 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:40:07,550 - __main__ - INFO - ======================================================================
+2026-01-15 18:40:07,550 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:40:07,551 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:40:10,894 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:40:10,895 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:40:10,895 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:40:10,899 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:40:10,911 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:40:10,912 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:40:10,913 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_184010.txt
+2026-01-15 18:40:10,915 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_184010_form.json
+2026-01-15 18:40:10,923 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_184010.json
+2026-01-15 18:40:10,923 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:40:10,924 - __main__ - INFO - ======================================================================
+2026-01-15 18:40:10,925 - __main__ - INFO - Processing completed in 3.37 seconds
+2026-01-15 18:40:10,925 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:40:10,925 - __main__ - INFO - ======================================================================
+2026-01-15 18:44:31,282 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:44:31,283 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:44:36,562 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:44:36,563 - __main__ - INFO - ======================================================================
+2026-01-15 18:44:36,563 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:44:36,563 - __main__ - INFO - ======================================================================
+2026-01-15 18:44:36,564 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:44:36,564 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:44:39,832 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:44:39,833 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:44:39,833 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:44:39,836 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:44:39,850 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:44:39,851 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:44:39,858 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_184439.txt
+2026-01-15 18:44:39,859 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_184439_form.json
+2026-01-15 18:44:39,861 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_184439.json
+2026-01-15 18:44:39,862 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:44:39,863 - __main__ - INFO - ======================================================================
+2026-01-15 18:44:39,863 - __main__ - INFO - Processing completed in 3.30 seconds
+2026-01-15 18:44:39,863 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:44:39,864 - __main__ - INFO - ======================================================================
+2026-01-15 18:50:27,392 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:50:27,392 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:50:32,521 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:50:32,522 - __main__ - INFO - ======================================================================
+2026-01-15 18:50:32,522 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:50:32,522 - __main__ - INFO - ======================================================================
+2026-01-15 18:50:32,523 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:50:32,524 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:50:35,796 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:50:35,796 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:50:35,797 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:50:35,800 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:50:35,812 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:50:35,813 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:50:35,815 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_185035.txt
+2026-01-15 18:50:35,817 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185035_form.json
+2026-01-15 18:50:35,824 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185035.json
+2026-01-15 18:50:35,825 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:50:35,826 - __main__ - INFO - ======================================================================
+2026-01-15 18:50:35,826 - __main__ - INFO - Processing completed in 3.30 seconds
+2026-01-15 18:50:35,827 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:50:35,828 - __main__ - INFO - ======================================================================
+2026-01-15 18:52:23,084 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:52:23,085 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:52:28,330 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:52:28,331 - __main__ - INFO - ======================================================================
+2026-01-15 18:52:28,331 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:52:28,332 - __main__ - INFO - ======================================================================
+2026-01-15 18:52:28,332 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:52:28,332 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:52:31,561 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:52:31,561 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:52:31,562 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:52:31,565 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:52:31,577 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:52:31,578 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:52:31,579 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_185231.txt
+2026-01-15 18:52:31,581 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185231_form.json
+2026-01-15 18:52:31,582 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185231.json
+2026-01-15 18:52:31,584 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:52:31,584 - __main__ - INFO - ======================================================================
+2026-01-15 18:52:31,585 - __main__ - INFO - Processing completed in 3.25 seconds
+2026-01-15 18:52:31,585 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:52:31,585 - __main__ - INFO - ======================================================================
+2026-01-15 18:54:17,802 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:54:17,802 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:54:23,158 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:54:23,158 - __main__ - INFO - ======================================================================
+2026-01-15 18:54:23,159 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:54:23,159 - __main__ - INFO - ======================================================================
+2026-01-15 18:54:23,160 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:54:23,160 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:54:26,384 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:54:26,385 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:54:26,385 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:54:26,388 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:54:26,401 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:54:26,402 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:54:26,404 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_185426.txt
+2026-01-15 18:54:26,406 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185426_form.json
+2026-01-15 18:54:26,407 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185426.json
+2026-01-15 18:54:26,408 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:54:26,409 - __main__ - INFO - ======================================================================
+2026-01-15 18:54:26,409 - __main__ - INFO - Processing completed in 3.25 seconds
+2026-01-15 18:54:26,409 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:54:26,410 - __main__ - INFO - ======================================================================
+2026-01-15 18:56:11,102 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 18:56:11,103 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 18:56:16,836 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 18:56:16,838 - __main__ - INFO - ======================================================================
+2026-01-15 18:56:16,838 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 18:56:16,838 - __main__ - INFO - ======================================================================
+2026-01-15 18:56:16,839 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 18:56:16,839 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 18:56:20,202 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 18:56:20,202 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 18:56:20,203 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 18:56:20,206 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 18:56:20,219 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 18:56:20,220 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 18:56:20,222 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_185620.txt
+2026-01-15 18:56:20,223 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185620_form.json
+2026-01-15 18:56:20,226 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_185620.json
+2026-01-15 18:56:20,226 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 18:56:20,227 - __main__ - INFO - ======================================================================
+2026-01-15 18:56:20,228 - __main__ - INFO - Processing completed in 3.39 seconds
+2026-01-15 18:56:20,228 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 18:56:20,228 - __main__ - INFO - ======================================================================
+2026-01-15 19:13:30,087 - __main__ - ERROR - File not found: test_document.pdf
+2026-01-15 19:14:03,517 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 19:14:03,518 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 19:14:08,954 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 19:14:08,955 - __main__ - INFO - ======================================================================
+2026-01-15 19:14:08,955 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 19:14:08,956 - __main__ - INFO - ======================================================================
+2026-01-15 19:14:08,957 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 19:14:08,957 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 19:14:12,249 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 19:14:12,250 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 19:14:12,251 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 19:14:12,253 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 19:14:12,266 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 19:14:12,267 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 19:14:12,268 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_191412.txt
+2026-01-15 19:14:12,271 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_191412_form.json
+2026-01-15 19:14:12,273 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_191412.json
+2026-01-15 19:14:12,274 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 19:14:12,274 - __main__ - INFO - ======================================================================
+2026-01-15 19:14:12,275 - __main__ - INFO - Processing completed in 3.32 seconds
+2026-01-15 19:14:12,275 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 19:14:12,276 - __main__ - INFO - ======================================================================
+2026-01-15 19:18:56,028 - __main__ - INFO - Initializing OCR Document Processor
+2026-01-15 19:18:56,029 - src.ocr.engine - INFO - Initializing PaddleOCR engine...
+2026-01-15 19:19:01,182 - src.ocr.engine - INFO - PaddleOCR engine initialized successfully
+2026-01-15 19:19:01,183 - __main__ - INFO - ======================================================================
+2026-01-15 19:19:01,184 - __main__ - INFO - Processing: main_test_file.pdf
+2026-01-15 19:19:01,184 - __main__ - INFO - ======================================================================
+2026-01-15 19:19:01,185 - __main__ - INFO - File size: 0.73 MB
+2026-01-15 19:19:01,185 - __main__ - INFO - Step 1: Converting PDF to images...
+2026-01-15 19:19:04,460 - src.parsers.pdf_parser - INFO - Successfully extracted text directly from PDF
+2026-01-15 19:19:04,461 - __main__ - INFO - PDF contains extractable text - using direct extraction
+2026-01-15 19:19:04,461 - __main__ - INFO - Step 4: Postprocessing text...
+2026-01-15 19:19:04,464 - __main__ - INFO - Step 5: Parsing form data...
+2026-01-15 19:19:04,477 - src.ocr.postprocessor - INFO - Extracted 4 structured fields
+2026-01-15 19:19:04,477 - __main__ - INFO - Step 6: Saving results...
+2026-01-15 19:19:04,480 - src.utils.file_handler - INFO - Saved text to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\txt\main_test_file_20260115_191904.txt
+2026-01-15 19:19:04,487 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_191904_form.json
+2026-01-15 19:19:04,489 - src.utils.file_handler - INFO - Saved JSON to C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output\json\main_test_file_20260115_191904.json
+2026-01-15 19:19:04,489 - src.utils.file_handler - INFO - Cleaned up temporary directory: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\temp
+2026-01-15 19:19:04,490 - __main__ - INFO - ======================================================================
+2026-01-15 19:19:04,491 - __main__ - INFO - Processing completed in 3.31 seconds
+2026-01-15 19:19:04,491 - __main__ - INFO - Output saved to: C:\Users\Akshita\Desktop\pdf-ocr-paddle\pdf-ocr-paddle\data\output
+2026-01-15 19:19:04,491 - __main__ - INFO - ======================================================================

@@ -1,0 +1,21 @@
+# Core OCR - Latest versions
+paddleocr>=2.8.0
+paddlepaddle>=3.0.0
+
+# PDF Processing
+pdf2image>=1.16.3
+PyPDF2>=3.0.1
+pikepdf>=8.0.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0,<2.0.0
+
+# Data Processing
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+colorlog>=6.8.0

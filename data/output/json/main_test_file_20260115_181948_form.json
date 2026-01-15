@@ -1,0 +1,191 @@
+{
+  "document": {
+    "file_name": "unknown",
+    "document_type": "WorldTrips Claimant Statement and Authorization",
+    "extracted_at": "2026-01-15T18:19:48.768976",
+    "docu_sign_envelope_id": "5208D50D-6221-461D-B926-C9BA6DF98167",
+    "total_pages_from_document": 10,
+    "total_pages": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "section": "PART A: CLAIMANT INFORMATION",
+      "raw_text": "Page 1 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132INDIANA LAW REQUIRES US TO NOTIFY YOU OF THE FOLLOWING: A person who knowingly and with intent to defraud an\ninsurer files a statement of claim containing any false, incomplete, or misleading information commits a felony.\nNOTE: Only one Claimant’s Statement and Authorization form is required for each episode of care. If you have already\nsubmitted a form related to the incident for which you are claiming, an additional Claimant’s Statement is not needed.\nIf medical services took place outside the United States, please complete this form along with Supplement A. Attach copies\nof all itemized bills for service and supplies. Please verify that the documents indicate your name, date of service, diagnosis,\nand the charge for each service. If you have already paid for these services, please include receipts showing payment.\nFor questions or guidance in filling out this form, please visit https://www.worldtrips.com/claims-resource-center. Y ou can\nalso call us toll-free at 800-605-2282 within the U.S. or collect at 1-317-262-2132 from anywhere else in the world. When\ncalling, please mention the country and area code that you are calling from.If you are NOT completing and submitting this form online via Member Portal, you must send us the completed form using\none of the methods below.\nOnline Submission — Go to:\nhttps://service.worldtrips.com/Paper Form – Mail to:\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\nU.S.AClaimant’s Statement and Authorization\nINSTRUCTIONS\nPART A: CLAIMANT INFORMATIONCOMPLETE ALL APPLICABLE PARTS OF THIS FORM.\nMEDICAL SERVICES OUTSIDE THE UNITED STATES\nQUESTIONS OR GUIDANCEFORM SUBMISSION OPTIONS\n1A. Claimant’s Full Name: 2A. Gender: 3A. Date of Birth (MM/DD/YY):\n4A. Current Mailing Address:\n5A. City: 6A. State: 7A: Postal Code: 8A. Country:\n9A. Primary Telephone: 10A. Secondary Telephone: 11A. Email Address:\nIMPORTANT: We CANNOT process your claims without the correct\nID Number. Y ou can locate this number on your Policy Document or\nPolicy ID Card.12A. Policy Number or Certificate Number:\n13A. Citizenship: 14A. Home Country*: 15A. Countries Visited: (WorldTrips may request a copy of your passport.)\n* Home Country is where you principally reside & receive regular mail.\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\n01890\nUSAWinchester\nEngland, Turkey245549351Ilyas Malik\n69 Sylvester Avenue\nUSAMA USA\nrazmalik@gmail.com\n120392469Male 07/03/2008",
+      "form_fields": {
+        "1a_claimant_full_name": "Ilyas Malik",
+        "2a_gender": "Male",
+        "3a_date_of_birth_mm_dd_yy": "07/03/2008",
+        "4a_current_mailing_address": "69 Sylvester Avenue",
+        "5a_city": "Winchester",
+        "6a_state": "MA",
+        "7a_postal_code": "01890",
+        "8a_country": "USA",
+        "9a_primary_telephone": "120392469",
+        "10a_secondary_telephone": "11",
+        "11a_email_address": "razmalik@gmail.com",
+        "12a_policy_or_certificate_number": "245549351",
+        "13a_citizenship": "USA",
+        "14a_home_country": "USA",
+        "15a_countries_visited": "England, Turkey"
+      }
+    },
+    {
+      "page": 2,
+      "section": "PART A (Continued) + PART B: TRAVEL ASSISTANCE AND OTHER CLAIMS",
+      "raw_text": "Page 2 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-213216A. Are you a full-time student? Y es No - If YES, please provide the following:\nName of School:\nAddress of School:\nCity: State: Postal Code: Country:\nIMPORTANT - Be Sure to Attach:\n• If in the United States, a copy of your valid, education-related visa (F-1 or J-1 visa, OPT, etc.) and/or valid I-20 / DS2019\n• Proof of your full-time student status (please disregard this item only if you are submitting a copy of a valid F-1, including OPT, or J-1\nvisa.)\n17A. Are you employed? Y es No\n18A. Do you have any other coverage (medical, indemnity, or liability), other than that provided by WorldTrips, which might help cover\nclaimed expenses? Y es No\nName of Insurance Company: Policyholder: Policy Number: Effective Date (MM/DD/\nYY):\nAddress:\nCity: State: Postal Code: Country:\nIs this group insurance? Y es No Is this insurance obtained through a university or school that you attend? Y es NoPART A: CLAIMANT INFORMATION (Continued)\nPART B: TRAVEL ASSISTANCE AND OTHER CLAIMS\nThis section relates to benefits not necessarily related to illness, accidents or injury. If none of the following applies to you,\nplease feel free to skip PART B and proceed to PART C: Medical Information\n1B. Please check all you are applying for:\nTravel Delay Lost Checked Luggage Trip Interruption\nEmergency Quarantine Indemnity Benefit — Covid-19 Other\n2B. Please provide as detailed as possible (including dates, times, locations) of incident:\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\n\nX80 Skillings Road\nX\n\nWinchester USAX\nWinchester High School\n01890\nMA\nN/A",
+      "form_fields": {
+        "16a_full_time_student": "Yes",
+        "16a_school_name": "Winchester High School",
+        "16a_school_address": "80 Skillings Road",
+        "16a_school_city": "Winchester",
+        "16a_school_state": "MA",
+        "16a_school_postal_code": "01890",
+        "16a_school_country": "USA",
+        "17a_employed": "No",
+        "18a_other_insurance_coverage": "No"
+      },
+      "part_b": {
+        "1b_applying_for": {
+          "travel_delay": false,
+          "lost_checked_luggage": false,
+          "trip_interruption": false,
+          "emergency_quarantine_indemnity_benefit_covid_19": false,
+          "other": true
+        },
+        "2b_incident_details": "N/A"
+      }
+    },
+    {
+      "page": 3,
+      "section": "PART C: MEDICAL INFORMATION",
+      "raw_text": "Page 3 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132PART C: MEDICAL INFORMATION\n2C. Have you ever had or been treated for the same kind of illness or injury? Y es No - If YES, please provide the following:\nDate Treated (MM/DD/YY): Attending Physician’s Name: Attending Physician’s Telephone:\nAttending Physician’s Address:\nCity: State: Postal Code: Country:\n3C. If in an accident, was it involving a motorized vehicle? Y es No\nIf YES, please include a copy of the police report and complete the following regarding the insurance of the vehicle(s) involved:\nInsurance Company Name: Insurance Company Address: Insurance Company Telephone:\n4C. Have you had any ailments, diseases, illnesses, conditions, or injuries, or have you taken any medications during the last 2 years?\nY es No If YES, please provide the following:\nName/Description of\nCondition or MedicationDate(s)\n(MM/DD/YY)Physician Name Physician Address Physician Telephone\nif additional lines are needed, continue answers in the section titled “Supplement B - Illness or Injury”Onset of illness or date and time of injury: If accident, location of that accident (please be as specific as possible):\nHow did the illness or injury/accident begin? State fully all symptoms and describe in detail from the beginning, including first date of\nonset.1C. If regarding illness or injury, please provide the following details:\n5C. Was the incident related to your employment? Y es No If YES, please provide the following:\nEmployer Name: Employer Telephone:\nEmployer Address:\nCity: State: Postal Code: Country:\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\nFever, headaches, GI issues, Dizziness\nXX N/A\nXJuly 8h (E\nX",
+      "form_fields": {
+        "1c_onset_of_illness_or_date_time_of_injury": "July 8th",
+        "1c_accident_location_if_any": "N/A",
+        "1c_symptoms_description": "Fever, headaches, GI issues, Dizziness",
+        "2c_had_same_illness_or_injury_before": "No",
+        "3c_motorized_vehicle_accident": "No",
+        "4c_any_conditions_or_medication_last_2_years": "No",
+        "5c_incident_related_to_employment": "No"
+      }
+    },
+    {
+      "page": 4,
+      "section": "PART D: MEDICAL RECORD AUTHORIZATION",
+      "raw_text": "Page 4 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132I verify that all information contained in this form is true, correct, and complete to the best of my knowledge. I authorize\nany licensed doctor, practitioner of the healing arts, hospital, clinic, health-related facility, pharmacy, govemment agency,\ninsurance company, group policyholder, employee, or benefit plan administrator having information as to the care, advice,\ntreatment, diagnosis, or prognosis of any physical or mental condition, or the financial or employment status of the\ninsured named below, to provide this information to WorldTrips. I understand that I have the right to receive a copy of this\nauthorization upon request. A copy of this shall be as valid as the original. This authorization is valid for twelve months from\nthe date signed: PART D: MEDICAL RECORD AUTHORIZATION\n1D. VERIFICATION\nClaimant’s Signature\nPrint Name Date (MM/DD/YY)\nSignature of insured Date (MM/DD/YY)2D. ASSIGNMENT OF BENEFITS AUTHORIZATION\nNOTE: “2D. Assignment of Benefits Authorization” only applies to claims that are submitted directly to WorldTrips by a\nservice provider and does not apply to claims that have already been paid for. Failure to sign below may result in a delay in\npayment to the provider.\nI authorize payment of medical benefits to the doctor or other supplier of services submitting the attached bills.\nNOTE: If payment for these claims has already been made, please provide all receipts for payments. If you would like to be\nreimbursed via ACH or wire (instead of a check), or if you would like WorldTrips to pay a third party other than yourself, please\ncomplete the appropriate form located in “Supplement C – Payment Authorization Agreement Form”\nINDIANA LAW REQUIRES US TO NOTIFY YOU OF THE FOLLOWING: A person who knowingly and with intent to defraud an\ninsurer files a statement of claim containing any false, incomplete, or misleading information commits a felony.\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\n9/5/2023\n9/5/2023Ilyas Malik",
+      "signatures": {
+        "claimant_signature_date_mm_dd_yy": "09/05/2023",
+        "insured_signature_date_mm_dd_yy": "09/05/2023",
+        "printed_name": "Ilyas Malik"
+      }
+    },
+    {
+      "page": 5,
+      "section": "SUPPLEMENT A — NON-U.S. CLAIM ITEMIZATION FORM",
+      "raw_text": "Page 5 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT A — NON-U.S. CLAIM ITEMIZATION FORM\nThis form is required for medical charges incurred outside the U.S. If you are filing a claim for medical charges incurred\nwithin the U.S. and these charges have already been paid for, please list them below otherwise you may feel free to skip\nSupplement A.\nDate of Service\n(MM/DD/YY)Provider DiagnosisDescription of\nServicesCurrency CountryAmount\nCharged\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\nvirusExamination and\ntests07/09/23\nACIBADEM\nHospitalACIBADEM\nHospital\nTurkey\nvirus\n458.35TL\n(Turkish\nLira)TurkeyTL\n(Turkish\nLira)4590.599\n07/09/23Medication",
+      "tables": {
+        "supplement_a_items": [
+          {
+            "date_of_service_mm_dd_yy": "07/09/2023",
+            "provider": "ACIBADEM Hospital",
+            "diagnosis": "virus",
+            "description_of_services": "Examination and tests",
+            "currency": "TL (Turkish Lira)",
+            "country": "Turkey",
+            "amount_charged": "4590.599"
+          },
+          {
+            "date_of_service_mm_dd_yy": "07/09/2023",
+            "provider": "ACIBADEM Hospital",
+            "diagnosis": "virus",
+            "description_of_services": "Medication",
+            "currency": "TL (Turkish Lira)",
+            "country": "Turkey",
+            "amount_charged": "458.35"
+          }
+        ]
+      }
+    },
+    {
+      "page": 6,
+      "section": "SUPPLEMENT B — ILLNESS OR INJURY",
+      "raw_text": "Page 6 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT B — ILLNESS OR INJURY\nUse the additional form fields below if needed for question 4C.\nName/ Description of\nCondition or MedicationDate(s)\n(MM/DD/YY)Physician Name Physician Address Physician Telephone\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167",
+      "tables": {
+        "supplement_b_items": []
+      }
+    },
+    {
+      "page": 7,
+      "section": "SUPPLEMENT C — PAYMENT AUTHORIZATION AGREEMENT FORM",
+      "raw_text": "Page 7 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132Intemational Bank Accounts (Banks outside of the United States)\nAll wires or ACH (Automated Clearing House) payments are sent in USD. T o ensure timely delivery of payment, it is\nrecommended that the member contact their bank to confirm wire or ACH instructions and that their bank can accept payment\nUSD. Sending intemational wires without the required information can cause the wire to be delayed or retumed.\n9. Bank Name: 10. Bank City: 11. Bank Country:\n12. Swift Code: 13. Account Name (Not Payee Name): 14. Account Holder Address:\n15. Account Holder City: 16. Account Holder Providence: 17. Account Holder Country:\n18. Bank Account Number: 19. IBAN Number (if applicable)\nIntermediary Bank (If Applicable) (U.S. bank that converts USD payment to foreign currency. Only needed if receiving bank\ncannot accept and convert USD payment to foreign currency)\nImportant: If the receiving bank resides outside the United States. please inquire from your foreign bank if they require the use\nof an Intermediary (correspondent) bank in order to receive a wire transfer from a U.S. bank. If this is true, then please obtain\nthe following required information regarding your bank’s Intermediary bank.\n20. Bank Name: 21. Bank City: 22. Bank State:\n23. ABA / Routing Number (9 digits):\n25. Any special instructions for forwarding payment:24. Account Number (if applicable):SUPPLEMENT C — PAYMENT AUTHORIZATION AGREEMENT FORM\nThe insured hereby authorizes WORLDTRIPS to initiate credit entries to the account indicated below at the depository\nfinancial institution named below. It is also acknowledged that the origination of WIRE transactions to the specified account\nmust comply with the provisions of U.S. law.\n1. Beneficiary Name: 2. Home Telephone (if applicable): 3. Email Address (if applicable):\n4. Beneficiary Address:\n5. City: 6. State: 7. Postal Code: 8. Country:\nPayment Type: Check (Complete Above Section) Wire/ACH Transfer (Complete Applicable Section Below)\nSpecial notes regarding intemational wires:\na) WorldTrips pays all initial wire fees. However, intemational wire transfers may incur currency conversion fees. Also, the use of\nan Intermediary bank may also incur additional fees. These additional fees are the responsibility of the payee.\nb) Mexico - wires must have a CLABE # (18 digits)\nc) Great Britain - wires in US dollars must have a bank account# and a Sort Code (6 digits)\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\nXMA 01890Raheel Malik\nUSArazmalik@gmail.com\nWinchester69 Sylvester Avenue",
+      "form_fields": {
+        "beneficiary_name": "Raheel Malik",
+        "beneficiary_email": "razmalik@gmail.com",
+        "beneficiary_address": "69 Sylvester Avenue",
+        "beneficiary_city": "Winchester",
+        "beneficiary_postal_code": "01890",
+        "beneficiary_state": "MA",
+        "beneficiary_country": "USA",
+        "payment_type": "Check"
+      }
+    },
+    {
+      "page": 8,
+      "section": "SUPPLEMENT C (Continued) + THIRD PARTY PAYMENT FORM",
+      "raw_text": "Page 8 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132Domestic Payments (U.S. Banks)\nThere are two methods for bank-to-bank electronic payments: Wire Transfer and Automated Clearing House (ACH) routing\nnumber to identify your bank will differ depending on which payment method is used.\nACH (Automated Clearing House) — U.S. Bank Only\n26. Bank Name: 27. Bank City: 28. Bank State:\n29. Account Holder Name: 30. Account Holder Address: 31. Account Holder City:\n32. Account Holder State: 33. Account Holder Zip Code: 34. Bank Routing Number (9 digits):\n35. Account Number: SUPPLEMENT C: PAYMENT FORMS (Continued)\n36. Checking Account: Savings Account:\nPrinted Name of the Insured Person\nPrinted Name of the Party Completing FormDate (MM/DD/YY)\nDate (MM/DD/YY)Insured Signature\nSignatureTHIRD PARTY PAYMENT FORM\nPlease complete this section if payment is to be made to a third party other than the insured. Please provide the name and\ndetails to whom any benefit should be paid and sign to indicate authorization for us to reimburse this person.\n1. Name:\n2. Address:\n3. City: 4. State: 5. Postal Code: 6. Country:\nI authorize payment of benefits to the third party listed above.\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\n9/5/2023 Ilyas Malik",
+      "form_fields": {
+        "beneficiary_name": null,
+        "beneficiary_email": null,
+        "payment_type": "Check",
+        "insured_signature_date_mm_dd_yy": "09/05/2023",
+        "printed_name_of_insured": "Ilyas Malik"
+      },
+      "third_party_payment_form": {
+        "name": null,
+        "address": null,
+        "city": null,
+        "state": null,
+        "postal_code": null,
+        "country": null
+      }
+    },
+    {
+      "page": 9,
+      "section": "SUPPLEMENT D — AUTHORIZATION FORM (PHI Disclosure)",
+      "raw_text": "Page 9 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT D — AUTHORIZATION FORM FOR USE AND/OR DISCLOSURE OF\nPROTECTED HEALTH INFORMATION\nYou must fill out the sections below if you wish to authorize WorldTrips to disclose your\nprotected health information to another party.\nSupplement D authorizes WorldTrips to use and/or disclose your protected health information (“PHI’’) to individuals you\nspecify. For the purpose of this form, PHI shall be considered protected health information, which is individually identifiable\nhealth information received from or maintained by WorldTrips. Without completing and signing Supplement D, Federal law\nprohibits WorldTrips from releasing your PHI to your spouse, parent, adult children, or other family members, close\npersonal friends, or other personal representatives unless you are present at the time of disclosure.\n*No benefits will be withheld from you if you refuse to sign Supplement D.*\nSECTION A: Insured Authorizing Use and/or Disclosure\nInsured Name:\nPolicy/Certificate Number:\nSECTION B: The Use and/or Disclosure Being Authorized\nThe information to be used and/or disclosed is (select all that apply):\nClaims & payment data Eligibility and enrollment\nBills, requests for payment Payments or coverage under the policy / certificate\nOther (please specify)\nPurpose for this use and/or disclosure:\nAt my request\nOther (please specify)\nPersons this information may be disclosed to:\n1. Relationship to insured\n2. Relationship to insured\n3. Relationship to insured\n4. Relationship to insured\nSECTION C: Expiration\nThis authorization will expire (complete one):\nOn _____/_____/__________ (MM/DD/YY)\nOn occurrence of the following event (which must relate to the individual or to the purpose of the use and/or\ndisclosure being authorized): ___________________________________________________________________________\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167",
+      "form_fields": {
+        "insured_name": null,
+        "policy_certificate_number": null,
+        "personal_representative_relationship": null,
+        "personal_representative_name": null
+      }
+    },
+    {
+      "page": 10,
+      "section": "SUPPLEMENT D — AUTHORIZATION FORM (PHI Disclosure)",
+      "raw_text": "Page 10 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SECTION D: Important Information About Your Rights\n\nI have read and understood the following statements about my rights:\n• I may revoke this authorization at any time by notifying WorldTrips in writing, but the revocation will not have any effect on\nany actions that WorldTrips took before we received the revocation.\n• I may see and copy the information described on this form if I ask for it.\n• I am not required to sign this form to receive health care benefits to which I am otherwise entitled.\n• The information that is used or disclosed pursuant to this authorization may be re-disclosed by the receiving entity and I\nunderstand that the information may no longer be protected by the Health Insurance Portability Accountability Act of 1996\n(also known as HIPAA).\nlnsured’s Signature\nI, having had the full opportunity to read and consider the contents of this authorization, hereby authorize WorldTrips to use and/\nor disclose my protected health information as indicated above.\nIf this authorization is signed by a personal representative on behalf of the insured/ certificate holder,\ncomplete the following:\nPersonal Representative’s Name: _________________________________________________________________________________________\nRelationship to Insured/ Certificate Holder for Whom This Authorization Applies: ____________________________________________\nNote: If requested, you must provide valid and current proof of your legal relationship as a personal representative.SUPPLEMENT D: AUTHORIZATION FORM FOR USE AND/OR DISCLOSURE OF\nPROTECTED HEALTH INFORMATION (Continued)\nDate (MM/DD/YY) Signature\nYOU ARE ENTITLED TO A COPY OF THIS AUTHORIZATION AFTER YOU SIGN IT.\nA copy of this form may be used as if it were an original.\nWorldTrips Lloyd’s\nWorldTrips is a service company and a member of the T okio Marine HCC group of companies. WorldTrips has authority to enter into contracts\nof insurance on behalf of the Lloyd’s underwriting members of Lloyd’s Syndicate 4141, which is managed by HCC Underwriting Agency, Ltd.\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167\nFatherRaheel Malik",
+      "form_fields": {
+        "insured_name": null,
+        "policy_certificate_number": null,
+        "personal_representative_relationship": "Father",
+        "personal_representative_name": "Raheel Malik"
+      }
+    },
+    {
+      "page": 11,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    },
+    {
+      "page": 12,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    },
+    {
+      "page": 13,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    }
+  ]
+}

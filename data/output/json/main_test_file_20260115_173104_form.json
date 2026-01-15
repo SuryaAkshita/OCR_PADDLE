@@ -1,0 +1,198 @@
+{
+  "document": {
+    "file_name": "unknown",
+    "document_type": "WorldTrips Claimant Statement and Authorization",
+    "extracted_at": "2026-01-15T17:31:04.826157",
+    "docu_sign_envelope_id": "5208D50D-6221-461D-B926-C9BA6DF98167",
+    "total_pages_from_document": 10,
+    "total_pages": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "section": "PART A: CLAIMANT INFORMATION",
+      "raw_text": "Page 1 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132INDIANA LAW REQUIRES US TO NOTIFY YOU OF THE FOLLOWING: A person who knowingly and with intent to defraud an\ninsurer files a statement of claim containing any false, incomplete, or misleading information commits a felony.\nNOTE: Only one Claimant’s Statement and Authorization form is required for each episode of care. If you have already\nsubmitted a form related to the incident for which you are clai...",
+      "form_fields": {
+        "1a_claimant_full_name": null,
+        "2a_gender": null,
+        "3a_date_of_birth_mm_dd_yy": null,
+        "4a_current_mailing_address": "5A. City: 6A. State: 7A: Postal Code: 8A. Country:",
+        "5a_city": null,
+        "6a_state": "me",
+        "7a_postal_code": null,
+        "8a_country": null,
+        "9a_primary_telephone": "10",
+        "10a_secondary_telephone": "11",
+        "11a_email_address": null,
+        "12a_policy_or_certificate_number": "or",
+        "13a_citizenship": null,
+        "14a_home_country": "is",
+        "15a_countries_visited": null
+      }
+    },
+    {
+      "page": 2,
+      "section": "PART A (Continued) + PART B: TRAVEL ASSISTANCE AND OTHER CLAIMS",
+      "raw_text": "Page 2 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-213216A. Are you a full-time student? Y es No - If YES, please provide the following:\nName of School:\nAddress of School:\nCity: State: Postal Code: Country:\nIMPORTANT - Be Sure to Attach:\n• If in the United States, a copy of your valid, education-related visa (F-1 or J-1 visa, OPT, etc.) and/or valid I-20 / DS2019\n• Proof of your full-time student status (please disregard this item only if you are submit...",
+      "form_fields": {
+        "16a_full_time_student": null,
+        "16a_school_name": "Address of School:",
+        "16a_school_address": "City: State: Postal Code: Country:",
+        "16a_school_city": null,
+        "16a_school_state": "Po",
+        "16a_school_postal_code": null,
+        "16a_school_country": null,
+        "17a_employed": null,
+        "18a_other_insurance_coverage": null
+      },
+      "part_b": {
+        "1b_applying_for": {
+          "travel_delay": false,
+          "lost_checked_luggage": false,
+          "trip_interruption": false,
+          "emergency_quarantine_indemnity_benefit_covid_19": false,
+          "other": false
+        },
+        "2b_incident_details": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+      }
+    },
+    {
+      "page": 3,
+      "section": "PART C: MEDICAL INFORMATION",
+      "raw_text": "Page 3 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132PART C: MEDICAL INFORMATION\n2C. Have you ever had or been treated for the same kind of illness or injury? Y es No - If YES, please provide the following:\nDate Treated (MM/DD/YY): Attending Physician’s Name: Attending Physician’s Telephone:\nAttending Physician’s Address:\nCity: State: Postal Code: Country:\n3C. If in an accident, was it involving a motorized vehicle? Y es No\nIf YES, please include a co...",
+      "form_fields": {
+        "1c_onset_of_illness_or_date_time_of_injury": "or date and time of injury: If accident, location of that accident (please be as specific as possible):",
+        "1c_accident_location_if_any": "(please be as specific as possible):",
+        "1c_symptoms_description": "in detail from the beginning, including first date of",
+        "2c_had_same_illness_or_injury_before": null,
+        "3c_motorized_vehicle_accident": null,
+        "4c_any_conditions_or_medication_last_2_years": null,
+        "5c_incident_related_to_employment": null
+      }
+    },
+    {
+      "page": 4,
+      "section": "PART D: MEDICAL RECORD AUTHORIZATION",
+      "raw_text": "Page 4 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132I verify that all information contained in this form is true, correct, and complete to the best of my knowledge. I authorize\nany licensed doctor, practitioner of the healing arts, hospital, clinic, health-related facility, pharmacy, govemment agency,\ninsurance company, group policyholder, employee, or benefit plan administrator having information as to the care, advice,\ntreatment, diagnosis, or prog...",
+      "signatures": {
+        "claimant_signature_date_mm_dd_yy": null,
+        "insured_signature_date_mm_dd_yy": null,
+        "printed_name": "Date"
+      }
+    },
+    {
+      "page": 5,
+      "section": "SUPPLEMENT A — NON-U.S. CLAIM ITEMIZATION FORM",
+      "raw_text": "Page 5 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT A — NON-U.S. CLAIM ITEMIZATION FORM\nThis form is required for medical charges incurred outside the U.S. If you are filing a claim for medical charges incurred\nwithin the U.S. and these charges have already been paid for, please list them below otherwise you may feel free to skip\nSupplement A.\nDate of Service\n(MM/DD/YY)Provider DiagnosisDescription of\nServicesCurrency CountryAmount\nCharged...",
+      "tables": {
+        "supplement_a_items": [
+          {
+            "diagnosis": "virus",
+            "description_of_services": "tests07/09/23",
+            "provider": "Hospital",
+            "country": "Turkey",
+            "currency": "Lira)4590.599"
+          },
+          {
+            "date_of_service_mm_dd_yy": "07/09/23",
+            "provider": null,
+            "diagnosis": null,
+            "description_of_services": null,
+            "currency": null,
+            "country": null,
+            "amount_charged": null
+          }
+        ]
+      }
+    },
+    {
+      "page": 6,
+      "section": "SUPPLEMENT B — ILLNESS OR INJURY",
+      "raw_text": "Page 6 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT B — ILLNESS OR INJURY\nUse the additional form fields below if needed for question 4C.\nName/ Description of\nCondition or MedicationDate(s)\n(MM/DD/YY)Physician Name Physician Address Physician Telephone\nDocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167",
+      "tables": {
+        "supplement_b_items": []
+      }
+    },
+    {
+      "page": 7,
+      "section": "SUPPLEMENT C — PAYMENT AUTHORIZATION AGREEMENT FORM",
+      "raw_text": "Page 7 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132Intemational Bank Accounts (Banks outside of the United States)\nAll wires or ACH (Automated Clearing House) payments are sent in USD. T o ensure timely delivery of payment, it is\nrecommended that the member contact their bank to confirm wire or ACH instructions and that their bank can accept payment\nUSD. Sending intemational wires without the required information can cause the wire to be delayed or ...",
+      "form_fields": {
+        "beneficiary_name": null,
+        "beneficiary_email": null,
+        "beneficiary_address": "5. City: 6. State: 7. Postal Code: 8. Country:",
+        "beneficiary_city": null,
+        "beneficiary_state": null,
+        "beneficiary_postal_code": null,
+        "beneficiary_country": null,
+        "payment_type": "Check",
+        "bank_name": "10. Bank City: 11. Bank Country:",
+        "routing_number": null,
+        "account_number": "19"
+      }
+    },
+    {
+      "page": 8,
+      "section": "SUPPLEMENT C (Continued) + THIRD PARTY PAYMENT FORM",
+      "raw_text": "Page 8 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132Domestic Payments (U.S. Banks)\nThere are two methods for bank-to-bank electronic payments: Wire Transfer and Automated Clearing House (ACH) routing\nnumber to identify your bank will differ depending on which payment method is used.\nACH (Automated Clearing House) — U.S. Bank Only\n26. Bank Name: 27. Bank City: 28. Bank State:\n29. Account Holder Name: 30. Account Holder Address: 31. Account Holder City...",
+      "form_fields": {
+        "beneficiary_name": null,
+        "beneficiary_email": null,
+        "beneficiary_address": null,
+        "beneficiary_city": null,
+        "beneficiary_state": null,
+        "beneficiary_postal_code": null,
+        "beneficiary_country": "I authorize payment of benefits to the third party listed above",
+        "payment_type": null,
+        "bank_name": "27. Bank City: 28. Bank State:",
+        "routing_number": null,
+        "account_number": null
+      },
+      "third_party_payment_form": {
+        "name": "2. Address:",
+        "address": "3. City: 4. State: 5. Postal Code: 6. Country:",
+        "city": null,
+        "state": null,
+        "postal_code": null,
+        "country": "I authorize payment of benefits to the third party listed above"
+      }
+    },
+    {
+      "page": 9,
+      "section": "SUPPLEMENT D — AUTHORIZATION FORM (PHI Disclosure)",
+      "raw_text": "Page 9 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SUPPLEMENT D — AUTHORIZATION FORM FOR USE AND/OR DISCLOSURE OF\nPROTECTED HEALTH INFORMATION\nYou must fill out the sections below if you wish to authorize WorldTrips to disclose your\nprotected health information to another party.\nSupplement D authorizes WorldTrips to use and/or disclose your protected health information (“PHI’’) to individuals you\nspecify. For the purpose of this form, PHI shall be c...",
+      "form_fields": {
+        "insured_name": "Policy",
+        "policy_certificate_number": "SECTION",
+        "personal_representative_relationship": null,
+        "personal_representative_name": null
+      }
+    },
+    {
+      "page": 10,
+      "section": "SUPPLEMENT D — AUTHORIZATION FORM (PHI Disclosure)",
+      "raw_text": "Page 10 of 10\nWorldTrips\nBox No. 2005\nFarmington Hills, MI 48333-2005\n800-605-2282 / 1-317-262-2132SECTION D: Important Information About Your Rights\n\nI have read and understood the following statements about my rights:\n• I may revoke this authorization at any time by notifying WorldTrips in writing, but the revocation will not have any effect on\nany actions that WorldTrips took before we received the revocation.\n• I may see and copy the information described on this form if I ask for it.\n• I am...",
+      "form_fields": {
+        "insured_name": null,
+        "policy_certificate_number": null,
+        "personal_representative_relationship": "son",
+        "personal_representative_name": null
+      }
+    },
+    {
+      "page": 11,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    },
+    {
+      "page": 12,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    },
+    {
+      "page": 13,
+      "section": "UNKNOWN SECTION",
+      "raw_text": "DocuSign Envelope ID: 5208D50D-6221-461D-B926-C9BA6DF98167"
+    }
+  ]
+}
