@@ -1,0 +1,265 @@
+
+!pip -q install -U transformers accelerate bitsandbytes sentencepiece einops
+!pip -q install pdf2image pillow
+!apt-get -qq update
+!apt-get -qq install -y poppler-utils
+
+import os, io, gc, json, time, re
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+
+import torch
+from PIL import Image
+from pdf2image import convert_from_bytes
+import torchvision.transforms as T
+from torchvision.transforms.functional import InterpolationMode
+from transformers import AutoTokenizer, AutoModel
+
+
+MODEL_PATH = "OpenGVLab/InternVL2_5-4B-MPO"
+generation_config = dict(max_new_tokens=512, do_sample=False)
+IMAGENET_MEAN = (0.485, 0.456, 0.406)
+IMAGENET_STD  = (0.229, 0.224, 0.225)
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DTYPE = torch.bfloat16 if torch.cuda.is_available() and torch.cuda.get_device_capability()[0] >= 8 else torch.float16
+
+
+print("Loading tokenizer...")
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+print("Loading model...")
+model = AutoModel.from_pretrained(
+    MODEL_PATH,
+    trust_remote_code=True,
+    torch_dtype=DTYPE,
+    load_in_8bit=True,
+    device_map="auto",
+    low_cpu_mem_usage=True
+).eval()
+print("Model loaded.")
+
+
+# ----------------------------------------------------------
+# JSON CLEANERS
+# ----------------------------------------------------------
+
+def clean_model_json(text: str) -> str:
+    if not isinstance(text, str):
+        return text
+    cleaned = text.strip()
+    cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE | re.MULTILINE)
+    cleaned = re.sub(r"\s*```$", "", cleaned, flags=re.MULTILINE)
+    cleaned = cleaned.replace("```", "")
+    first = cleaned.find("{")
+    last  = cleaned.rfind("}")
+    if first != -1 and last != -1:
+        cleaned = cleaned[first:last+1]
+    cleaned = re.sub(r",\s*([}\]])", r"\1", cleaned)
+    return cleaned.strip()
+
+def try_parse_json_strict(obj):
+    if isinstance(obj, dict):
+        return obj, True
+    if isinstance(obj, str):
+        cleaned = clean_model_json(obj)
+        try:
+            parsed = json.loads(cleaned)
+            return parsed, True
+        except:
+            return obj, False
+    return obj, False
+
+def pretty_console(obj, max_chars=None):
+    if isinstance(obj, dict):
+        s = json.dumps(obj, indent=2, ensure_ascii=False)
+    else:
+        s = str(obj)
+    if max_chars and len(s) > max_chars:
+        s = s[:max_chars] + " ... [truncated]"
+    print(s)
+
+def save_json(path: str, data: dict):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+# ----------------------------------------------------------
+# IMAGE PREPROCESS
+# ----------------------------------------------------------
+
+def build_transform(input_size):
+    return T.Compose([
+        T.Lambda(lambda img: img.convert("RGB") if img.mode != "RGB" else img),
+        T.Resize((input_size, input_size), interpolation=InterpolationMode.BICUBIC),
+        T.ToTensor(),
+        T.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD)
+    ])
+
+def find_closest_aspect_ratio(aspect_ratio, target_ratios, width, height, image_size):
+    best_diff = float("inf")
+    best = (1,1)
+    for r in target_ratios:
+        diff = abs(aspect_ratio - (r[0]/r[1]))
+        if diff < best_diff:
+            best_diff = diff
+            best = r
+    return best
+
+def dynamic_preprocess(image, min_num=1, max_num=6, image_size=448, use_thumbnail=True):
+    ow, oh = image.size
+    aspect_ratio = ow / oh
+
+    target_ratios = sorted(
+        {(i,j) for n in range(min_num, max_num+1)
+               for i in range(1,n+1) for j in range(1,n+1)
+               if 1 <= i*j <= max_num},
+        key=lambda x: x[0]*x[1]
+    )
+
+    best = find_closest_aspect_ratio(aspect_ratio, target_ratios, ow, oh, image_size)
+    tw, th = image_size*best[0], image_size*best[1]
+    blocks = best[0] * best[1]
+
+    resized = image.resize((tw, th))
+    crops = []
+    for i in range(blocks):
+        box = (
+            (i % (tw//image_size)) * image_size,
+            (i // (tw//image_size)) * image_size,
+            ((i % (tw//image_size))+1) * image_size,
+            ((i // (tw//image_size))+1) * image_size
+        )
+        crops.append(resized.crop(box))
+    if use_thumbnail and len(crops) != 1:
+        crops.append(image.resize((image_size,image_size)))
+
+    return crops
+
+def load_image(image_file, input_size=448, max_num=6, use_thumbnail=True):
+    image = Image.open(image_file).convert("RGB")
+    transform = build_transform(input_size)
+    chunks = dynamic_preprocess(image, image_size=input_size, max_num=max_num, use_thumbnail=use_thumbnail)
+    px = torch.stack([transform(c) for c in chunks])
+    return px
+
+
+# ----------------------------------------------------------
+# MODEL CHAT
+# ----------------------------------------------------------
+
+def internvl_chat(image_pixels, prompt):
+    try:
+        with torch.no_grad():
+            out, hist = model.chat(
+                tokenizer,
+                image_pixels,
+                prompt,
+                generation_config,
+                history=None,
+                return_history=True
+            )
+        return out
+    except Exception as e:
+        print("Error:", e)
+        return None
+
+def calculate_extraction_confidence(response_dict):
+    if not isinstance(response_dict, dict):
+        return 0.0
+    vals = [v for k,v in response_dict.items() if k.endswith("_confidence") and isinstance(v,(int,float))]
+    return round(sum(vals)/len(vals), 2) if vals else 0.0
+
+def ai_analysis(image_pixels, prompt):
+    resp = internvl_chat(image_pixels, prompt)
+    if not resp:
+        return None, None, 0.0
+    parsed, is_json = try_parse_json_strict(resp)
+    if is_json:
+        conf = calculate_extraction_confidence(parsed)
+        return parsed, None, conf
+    return None, resp, 0.0
+
+
+# ----------------------------------------------------------
+# EXTRACTION LOGIC
+# ----------------------------------------------------------
+
+DEFAULT_EXTRACTION_PROMPT = """
+Return ONLY valid JSON. Do not include backticks or explanations.
+Extract all data from the document.
+""".strip()
+
+def process_single_page(image_pil, prompt):
+    try:
+        img_bytes = io.BytesIO()
+        image_pil.save(img_bytes, format="PNG")
+        pv = load_image(io.BytesIO(img_bytes.getvalue()), input_size=448, max_num=6, use_thumbnail=False)
+        pv = pv.to(dtype=DTYPE, device=DEVICE)
+
+        parsed, raw, conf = ai_analysis(pv, prompt)
+        result = {
+            "status": "success" if (parsed or raw) else "no_response",
+            "data": parsed if parsed else raw,
+            "confidence": conf
+        }
+        return result
+
+    except RuntimeError as e:
+        if "CUDA" in str(e):
+            torch.cuda.empty_cache(); gc.collect()
+            img_bytes = io.BytesIO()
+            image_pil.save(img_bytes, format="PNG")
+            pv = load_image(io.BytesIO(img_bytes.getvalue()), input_size=448, max_num=3, use_thumbnail=False)
+            pv = pv.to(dtype=DTYPE, device=DEVICE)
+            parsed, raw, conf = ai_analysis(pv, prompt)
+            return {
+                "status": "success_fallback" if (parsed or raw) else "no_response_fallback",
+                "data": parsed if parsed else raw,
+                "confidence": conf
+            }
+        return {"status":"error", "data":str(e), "confidence":0.0}
+
+
+def extract_pdf_multi(pdf_file, start_page=1, max_pages=None, prompt=DEFAULT_EXTRACTION_PROMPT):
+    t0 = time.time()
+    images = convert_from_bytes(pdf_file.getvalue())
+    total = len(images)
+
+    start_idx = max(start_page-1, 0)
+    end_idx = total if max_pages is None else min(total, start_idx+max_pages)
+    pages = images[start_idx:end_idx]
+
+    outputs = []
+    for i, img in enumerate(pages, start=start_idx+1):
+        page_res = process_single_page(img, prompt)
+        outputs.append({"page": i, **page_res})
+
+    final = {
+        "total_pages": total,
+        "processed": len(outputs),
+        "overall_confidence": round(sum(p["confidence"] for p in outputs)/len(outputs),2),
+        "pages": outputs,
+        "time": round(time.time()-t0,3)
+    }
+
+    print("\n===== PRETTY OUTPUT =====")
+    pretty_console(final)
+    save_json("pretty_output.json", final)
+
+    return final
+
+
+# ----------------------------------------------------------
+# RUN EXTRACTION
+# ----------------------------------------------------------
+
+PDF_PATH = "/content/main_test_file.pdf"
+with open(PDF_PATH,"rb") as f:
+    pdf_bytes = f.read()
+
+class DummyUpload:
+    def __init__(self, b, name="file.pdf"):
+        self._bytes=b; self.name=name
+    def getvalue(self): return self._bytes
+
+pdf_file = DummyUpload(pdf_bytes)
+
+result = extract_pdf_multi(pdf_file, start_page=1, max_pages=2)
